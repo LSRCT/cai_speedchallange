@@ -1,8 +1,8 @@
-# Comma.ai speed challange
+# Comma.ai speed challenge
 
-I tried the speedchallange by comma.ai (https://github.com/commaai/speedchallenge) for fun and profit.
+I tried the speedchallenge by comma.ai (https://github.com/commaai/speedchallenge) for fun and profit.
 
-The challange here is to predict the speed of a driving car given dashcam footage.
+The challenge here is to predict the speed of a driving car given dashcam footage.
 They include a labeld train set containing ~20000 frames of data, as well as a test set containing 10000 frames.
 
 ## Basic approach
