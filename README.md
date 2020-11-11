@@ -24,7 +24,7 @@ Lastly the data is normalized to zero mean and unit variance.
 ### Classification 
 
 The model used contains 3 CNN layers with residual connections as a feature extraction part and a two fully connected dense layers for the classification part.
-![architecture](/media/architecture.jpg)
+![architecture](/media/architecture.JPG)
 
 The parameters for the number of neurons in the classification layer as well as stride of the conv layers are on the low side, I choose them so the models doesnt get huge.
 
@@ -38,7 +38,7 @@ Because of that, I choose to use the first 2000, another 2000 in the middle, as 
 
 ## Results 
 The model was trained for 100 epochs, progression of train and validation MSE can be seen in the graph below. The final validation loss is ~6.9 mph MSE.
-![loss](/media/epoch_loss.jpg)
+![loss](/media/epoch_loss.JPG)
 
 ## Implementation
 Implementation is done in Python3 using:
